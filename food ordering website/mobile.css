@@ -1,0 +1,171 @@
+		/* header section */
+		#head {
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		#logo {
+			height: 7vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+
+		#logo img {
+			width: 80%;
+			height: 7vh;
+		}
+
+		#navbar {
+			max-width: 665px;
+			height: 7vh;
+			margin: 0px 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+
+		}
+
+		.items {
+			text-align: center;
+		}
+
+		#navbar ul li {
+			font-size: 14px;
+		}
+
+		/* home section */
+		#home h1 {
+			font-size: 1.5rem;
+			margin-bottom: 10px;
+		}
+
+		#home p {
+			font-size: 0.8rem;
+		}
+
+		#home {
+			height: 370px;
+
+		}
+
+		#home::before {
+			height: 370px;
+		}
+
+
+		/* offers section */
+		#offers {
+			margin-top: 30px;
+		}
+
+		.offerpage {
+			column-gap: 10px;
+			grid-auto-columns: 60%;
+			margin-top: 15px;
+		}
+
+		.offeritems {
+			width: 200px;
+			height: 233px;
+		}
+
+		/* order food */
+		#orderfood {
+			margin-top: 30px;
+
+		}
+
+		.foodbox {
+			margin: 10px 10px;
+			width: 100%;
+			height: 100px;
+		}
+
+		.foodbox img {
+			width: 150px;
+			height: 100px;
+		}
+
+		.text-container h2 {
+			font-size: 15px;
+			margin-bottom: 5px;
+		}
+
+		.text-container p {
+			font-size: 13px;
+		}
+
+		/* About Us */
+		#aboutus {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		.aboutbox {
+			margin: 10px 20px;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.aboutbox img {
+			width: 280px;
+			height: 187px;
+		}
+
+		#about-container {
+			font-size: 15px;
+			padding-top: 20px;
+			padding-left: 23px;
+		}
+
+		/* Download Section */
+		.downloadsection {
+			height: 230px;
+			padding: 20px 20px;
+		}
+
+		.downloadsection p {
+			font-size: 1rem;
+			margin-top: 20px;
+		}
+
+		.downloadsection .applinks {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.applinks img {
+			width: 160px;
+			height: 46px;
+			margin: 20px 10px;
+		}
+
+		/* copyright box */
+		#copyrightbox {
+			height: 100px;
+		}
+
+		/* utility classes */
+		.h-primary {
+			font-size: 1.5rem;
+			font-weight: bold;
+			font-family: 'Nunito', sans-serif;
+		}
+
+		.h-secondary {
+			font-size: 1rem;
+			font-weight: bold;
+			margin: 5px 20px;
+		}
+
+		.center {
+			text-align: center;
+		}
